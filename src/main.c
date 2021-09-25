@@ -21,7 +21,8 @@ int main()
 
         sceAudioInInput(port, buff);
         sceAudioOutOutput(outPort, buff);        
-
+        
+        sceKernelPowerTick(SCE_KERNEL_POWER_TICK_DEFAULT);
         sceKernelDelayThread(10000);
     } while (!(dat.buttons && SCE_CTRL_START));
 
