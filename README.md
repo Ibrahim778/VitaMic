@@ -12,4 +12,4 @@ For the love of god turn off usb power supply in settings.
 2. Launch App
 3. Done (?)
 
-Don't exit to livearea. It'll stop working and need a restart
+Don't exit to livearea. It'll stop working and need a relaunch
